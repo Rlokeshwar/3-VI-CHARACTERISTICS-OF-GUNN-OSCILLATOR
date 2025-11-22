@@ -53,13 +53,28 @@ In a Gunn Oscillator, the Gunn diode is placed in a resonant cavity. In this cas
 
 *Note: After tuning the Gunn source, the procedure for VSWR & Impedance measurement depthof PIN modulator.*
 
-**B.Observation: ( Include your own Table relevant to the Experiment)** (Include Tabulation Part)
+**B.Observation:**
+<img width="1128" height="688" alt="image" src="https://github.com/user-attachments/assets/db9ea49a-0d2f-4fe1-9755-ea424071f78a" />
 
-**C.Analysis of Results: (Write your own)**
+<img width="823" height="1280" alt="image" src="https://github.com/user-attachments/assets/d7a40133-85ff-4524-b1a8-84ff92ea7221" />
+Depth of modulation of PIN diode (sample readings & calc.)
+Gunn bias used for modulation: 8 V (steady carrier).
+Micrometer / attenuator position (carrier at reference level):
+Top of square wave: micrometer = 4.5 mm → VSWR meter = -24 dB
+Bottom of square wave: micrometer = 7.0 mm → VSWR meter = -30 dB
+Difference ΔdB = 6 dB.
+Convert ΔdB to amplitude ratio:
 
+<img width="813" height="188" alt="image" src="https://github.com/user-attachments/assets/6913d764-827f-422e-8271-d41adaa7438b" />
+
+Depth of modulation ≈ 50%
+
+**C.Analysis of Results:**
+1.The I–V curve shows a rise in current up to a peak (~3 V, 28 mA), then a fall to a valley (~7 V, 12 mA) and a subsequent rise — this is the classic negative differential resistance (NDR) region of a Gunn diode. 2.The device should be biased in the mid-NDR region (between peak and valley) for stable microwave oscillation. 3.From PIN modulator measurements, a Δ of 6 dB between high/low detector readings gives an amplitude ratio ≈ 2, corresponding to ~50% modulation depth, indicating effective amplitude modulation by the PIN modulator.
 (Include sample calculations/Display/plot/typical graph)
 
-**D.Conclusions: (Write  your Own)**
+**D.Conclusions:**
+The Gunn diode exhibits clear negative differential resistance with a peak around 3 V and a valley around 7 V, confirming conditions required for Gunn oscillation. The PIN diode modulator achieved a modulation depth of ≈ 50%, showing good amplitude modulation of the microwave carrier
 
 **Precautions:**
 
@@ -68,4 +83,4 @@ In a Gunn Oscillator, the Gunn diode is placed in a resonant cavity. In this cas
 •	Observation should be taken properly.
 
 **Result:**
-
+The Gunn oscillator demonstrates the expected NDR behavior (peak ≈ 3 V, valley ≈ 7 V) and the PIN modulator produced a modulation depth of ≈ 50%.
